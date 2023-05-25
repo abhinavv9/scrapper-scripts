@@ -6,8 +6,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.chrome.service import Service
 
-latitude = "51.5074"  # Latitude of the specific area
-longitude = "-0.1278"  # Longitude of the specific area
+latitude = "" # Latitude of the specific area
+longitude = ""  # Longitude of the specific area
 query = input('Enter your query: ')
 
 # Construct the URL with latitude, longitude, and search query
