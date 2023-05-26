@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const latitude = '28.5600472'; // Latitude of the specific area
-  const longitude = '7.4352572'; // Longitude of the specific area
+  const latitude = ''; // Latitude of the specific area
+  const longitude = ''; // Longitude of the specific area
   const query = 'hospital near me';
 
   // Construct the URL with latitude, longitude, and search query
