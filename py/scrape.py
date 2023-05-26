@@ -9,8 +9,8 @@ from selenium.common.exceptions import StaleElementReferenceException
 import time
 import sys
 
-latitude = '28.5600472'  # Latitude of the specific area
-longitude = '7.4352572'  # Longitude of the specific area
+latitude = ''  # Latitude of the specific area
+longitude = ''  # Longitude of the specific area
 query = 'hospital near me'
 
 # Construct the URL with latitude, longitude, and search query
